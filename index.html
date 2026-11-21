@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>المنيو الرقمي - Oppa Cafe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #d97706;
+      --dark: #111827;
+      --card: #1f2937;
+      --text: #f9fafb;
+      --muted: #9ca3af;
+      --whatsapp: #25D366;
+    }
+    * { box-sizing: border-box; scroll-behavior: smooth; }
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: var(--dark);
+      color: var(--text);
+      margin: 0;
+      padding-bottom: 90px;
+    }
+    header {
+      background: linear-gradient(135deg, #1f2937, #0f172a);
+      text-align: center;
+      padding: 24px 16px 16px;
+      border-bottom: 1px solid #374151;
+    }
+    header h1 { margin: 0 0 6px; font-size: 26px; color: var(--primary); font-weight: 800; }
+    header p { margin: 0; font-size: 14px; color: var(--muted); }
+
+    /* شريط الأقسام العلوي */
+    .nav-wrapper {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(17, 24, 39, 0.95);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid #374151;
+      padding: 10px 0;
+    }
+    .nav-scroll {
+      display: flex;
+      overflow-x: auto;
+      gap: 
